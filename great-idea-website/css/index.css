@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 100%;
+}
+.navigation {
+	margin: 0 auto;
+	width: 100%;
+	height: 100px; 
+	background: lightgrey;
+	/* z-index: 1; */
+	 position: fixed; 
+}
+.navigation nav {
+	
+	width: 75%;
+	padding: 20px;
+	display: inline-block;
+
+}
+.navigation nav a {
+	
+	padding: 15px;
+	display: inline-block;
+	width:15%;
+	text-decoration: none;
+}
+.navigation nav a:hover {
+	background: white;
+	border-radius: 5px;
+}
+.navigation img {
+	width: 20%;
+}
+
+header {
+	width:100%;
+	justify-content: center;
+	border-bottom: 1px solid black;
+}
+header div {
+	width: 60%;
+	display: inline-block;
+}
+
+header h1 {
+	font-size: 70px;
+	text-align: center;
+	margin: 50px auto;
+}
+header .button-div {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+header button {
+	background: white;
+	border: 1px solid black;
+	width: 150px;
+	height: 25px;
+	padding: 5px;
+}
+.top-content {
+	
+	text-align: center
+	
+}
+.top-boxes {
+	display: inline-block;
+	width: 49%;
+	margin: 50px auto;
+	padding: 40px;
+	text-align: start;
+}
+
+.center-img {
+	text-align: center;
+}
+
+.bottom-boxes{
+	display: inline-block;
+	width: 33%;
+	margin: 50px auto;
+	padding: 40px;
+	text-align: start;
+
+}
+address {
+	border-top: 1px solid black;
+	margin-left: 50px;
+	line-height: 2;
+}
+footer {
+	text-align: center;
+	margin: 50px;
+}
