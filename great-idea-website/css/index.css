@@ -124,6 +124,7 @@ header button {
 	height: 25px;
 	padding: 5px;
 }
+
 .top-content {
 	
 	text-align: center
@@ -157,4 +158,10 @@ address {
 footer {
 	text-align: center;
 	margin: 50px;
+}
+.header-left {
+	margin-top: 50px;
+}
+.img-top {
+	padding-top: 150px;
 }
